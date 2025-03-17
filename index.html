@@ -3,77 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Mohammed Ifkirne, GitHub, software developer, projects, open-source">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to my GitHub page!">
     <title>My GitHub Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        section {
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-        }
-
-        p {
-            font-size: 1.2em;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-
-        a {
-            color: #58a6ff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJx3Q5a4W7eWNhF8FqFmDdk7b2Xq8bqFvqdbVh2iW8Cwm9Xx3mn2vckvZzi4" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
+    <header class="bg-dark text-white text-center py-5">
         <h1>Welcome to My GitHub Page</h1>
         <p>Explore my repositories, projects, and more!</p>
     </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>Hello! I'm [Your Name], a software developer passionate about coding, open-source, and learning new technologies.</p>
-        <p>Feel free to explore my repositories and get in touch!</p>
-    </section>
 
-    <section>
-        <h2>Featured Projects</h2>
-        <ul>
-            <li><a href="https://github.com/MohaIfk/EpubReader" target="_blank">EpubReader</a>: Windows application written in c++ that help you manage and access your epub files.</li>
-        </ul>
-    </section>
+    <div class="container py-5">
+        <section>
+            <h2 class="display-4">About Me</h2>
+            <p class="lead">Hello! I'm Mohammed Ifkirne, a software developer passionate about coding, open-source, and learning new technologies.</p>
+            <p>Feel free to explore my repositories and get in touch!</p>
+        </section>
 
-    <footer>
-        <p>Connect with me on <a href="www.linkedin.com/in/mohammed-ifkirne-246037269" target="_blank">LinkedIn</a></p>
+        <section class="mt-5">
+            <h2 class="display-4">Featured Projects</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="https://github.com/MohaIfk/EpubReader" target="_blank" class="h5">EpubReader</a>
+                    <p>Windows application written in c++ that help you manage and access your epub files.</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Connect with me on <a href="https://www.linkedin.com/in/mohammed-ifkirne-246037269" target="_blank" class="text-white">LinkedIn</a></p>
     </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gyb23s2P0hBddp4PpAKN50d1i5sS6BXq0l/FeZ5ksMbHh6iB04" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqBd0L3bnpvBzX92ZbIkGFsV0tr0bgHYMjHBJ2lGjmHia" crossorigin="anonymous" defer></script>
 </body>
 
 </html>
